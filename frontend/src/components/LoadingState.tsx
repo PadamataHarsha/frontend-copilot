@@ -1,0 +1,1 @@
+export function LoadingState() { return <div className="loading-state" role="status"><span className="loading-mark" aria-hidden="true" /><h3>Building your wireframe</h3><p>Organizing the screen structure and key components.</p></div>; }

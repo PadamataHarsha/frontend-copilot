@@ -1,0 +1,460 @@
+[
+  {
+    "id": "uc1_leave_001",
+    "name": "Employee leave management",
+    "requirement": "Create an employee leave-management screen. Show annual and sick-leave balances. Allow an employee to select a leave type, start date, end date, and enter a reason. Include required-field and date validation, submission and cancellation actions, previous request history, manager approval or rejection, and request status. Generate only the leave-management screen content.",
+    "expected_section_groups": [
+      [
+        "balance"
+      ],
+      [
+        "request",
+        "application"
+      ],
+      [
+        "history",
+        "previous"
+      ],
+      [
+        "manager",
+        "approval",
+        "review"
+      ],
+      [
+        "status",
+        "validation"
+      ]
+    ],
+    "expected_components": [
+      "SummaryCard",
+      "Form",
+      "Select",
+      "DatePicker",
+      "TextArea",
+      "Button",
+      "Table",
+      "StatusBadge"
+    ],
+    "forbidden_features": [
+      "analytics",
+      "chatbot",
+      "export",
+      "authentication",
+      "home dashboard"
+    ]
+  },
+  {
+    "id": "uc1_transfer_002",
+    "name": "Domestic fund transfer",
+    "requirement": "Create an internet-banking domestic fund-transfer screen. Let the customer select a source account and registered beneficiary, view available balance, enter amount and optional remarks, review details, confirm or cancel, and see a success or failure result. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "source",
+        "account"
+      ],
+      [
+        "beneficiary"
+      ],
+      [
+        "amount",
+        "transfer details"
+      ],
+      [
+        "review"
+      ],
+      [
+        "confirm",
+        "action"
+      ],
+      [
+        "result",
+        "status"
+      ]
+    ],
+    "expected_components": [
+      "Select",
+      "SummaryCard",
+      "NumberInput",
+      "TextInput",
+      "Card",
+      "Button",
+      "Alert"
+    ],
+    "forbidden_features": [
+      "investment",
+      "analytics",
+      "chatbot",
+      "export",
+      "admin"
+    ]
+  },
+  {
+    "id": "uc1_patient_003",
+    "name": "Patient appointment booking",
+    "requirement": "Create a patient appointment-booking screen. Allow the patient to select a medical specialty, doctor, appointment date, and available time slot, enter an optional visit reason, review details, confirm or cancel, and see a booking result. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "appointment",
+        "details"
+      ],
+      [
+        "specialty",
+        "doctor"
+      ],
+      [
+        "date",
+        "time"
+      ],
+      [
+        "review"
+      ],
+      [
+        "confirm",
+        "action"
+      ],
+      [
+        "result"
+      ]
+    ],
+    "expected_components": [
+      "Form",
+      "Select",
+      "DatePicker",
+      "TextArea",
+      "Card",
+      "Button",
+      "Alert"
+    ],
+    "forbidden_features": [
+      "billing",
+      "analytics",
+      "chatbot",
+      "home dashboard",
+      "admin"
+    ]
+  },
+  {
+    "id": "uc1_registration_004",
+    "name": "Customer registration",
+    "requirement": "Create a customer-registration screen. Collect full name, email, mobile number, date of birth, residential address, password and confirmation, terms acceptance, validation, register and cancel actions, and a registration result. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "personal",
+        "customer details"
+      ],
+      [
+        "contact",
+        "address"
+      ],
+      [
+        "password",
+        "security"
+      ],
+      [
+        "terms"
+      ],
+      [
+        "register",
+        "action"
+      ],
+      [
+        "result"
+      ]
+    ],
+    "expected_components": [
+      "Form",
+      "TextInput",
+      "DatePicker",
+      "TextArea",
+      "Checkbox",
+      "Button",
+      "Alert"
+    ],
+    "forbidden_features": [
+      "analytics",
+      "chatbot",
+      "export",
+      "admin",
+      "dashboard"
+    ]
+  },
+  {
+    "id": "uc1_checkout_005",
+    "name": "E-commerce checkout",
+    "requirement": "Create an e-commerce checkout screen. Let customers review cart items, update quantity, provide a delivery address, choose delivery and payment methods, review totals, place or cancel the order, and see confirmation. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "cart"
+      ],
+      [
+        "delivery",
+        "address"
+      ],
+      [
+        "payment"
+      ],
+      [
+        "summary",
+        "total"
+      ],
+      [
+        "place",
+        "action"
+      ],
+      [
+        "confirmation",
+        "result"
+      ]
+    ],
+    "expected_components": [
+      "Table",
+      "NumberInput",
+      "Form",
+      "TextInput",
+      "RadioGroup",
+      "Card",
+      "Button",
+      "Alert"
+    ],
+    "forbidden_features": [
+      "analytics",
+      "chatbot",
+      "admin",
+      "inventory management"
+    ]
+  },
+  {
+    "id": "uc1_flight_006",
+    "name": "Flight booking",
+    "requirement": "Create a flight-booking search screen. Allow origin, destination, departure and return dates, passenger count, cabin class, search, flight selection, review, and booking confirmation. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "search",
+        "trip details"
+      ],
+      [
+        "passenger"
+      ],
+      [
+        "flight",
+        "results"
+      ],
+      [
+        "selection",
+        "review"
+      ],
+      [
+        "confirmation",
+        "action"
+      ]
+    ],
+    "expected_components": [
+      "Form",
+      "SearchInput",
+      "DatePicker",
+      "NumberInput",
+      "Select",
+      "List",
+      "Card",
+      "Button",
+      "Alert"
+    ],
+    "forbidden_features": [
+      "hotel",
+      "analytics",
+      "chatbot",
+      "admin"
+    ]
+  },
+  {
+    "id": "uc1_claim_007",
+    "name": "Insurance claim submission",
+    "requirement": "Create an insurance-claim submission screen. Collect policy number, incident type and date, description, claim amount, supporting documents, declaration, submit or cancel actions, and submission result. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "policy"
+      ],
+      [
+        "incident"
+      ],
+      [
+        "claim",
+        "details"
+      ],
+      [
+        "document",
+        "supporting"
+      ],
+      [
+        "declaration"
+      ],
+      [
+        "submit",
+        "action"
+      ],
+      [
+        "result"
+      ]
+    ],
+    "expected_components": [
+      "Form",
+      "TextInput",
+      "Select",
+      "DatePicker",
+      "TextArea",
+      "NumberInput",
+      "Checkbox",
+      "Button",
+      "Alert"
+    ],
+    "forbidden_features": [
+      "analytics",
+      "chatbot",
+      "admin",
+      "underwriting dashboard"
+    ]
+  },
+  {
+    "id": "uc1_ticket_008",
+    "name": "Customer support ticket",
+    "requirement": "Create a customer-support ticket screen. Let the customer select category and priority, enter subject and description, attach context, submit or cancel, and see ticket number and status. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "ticket",
+        "details"
+      ],
+      [
+        "category",
+        "priority"
+      ],
+      [
+        "description"
+      ],
+      [
+        "submit",
+        "action"
+      ],
+      [
+        "result",
+        "status"
+      ]
+    ],
+    "expected_components": [
+      "Form",
+      "Select",
+      "TextInput",
+      "TextArea",
+      "Button",
+      "Alert",
+      "StatusBadge"
+    ],
+    "forbidden_features": [
+      "chatbot",
+      "analytics",
+      "admin",
+      "knowledge base"
+    ]
+  },
+  {
+    "id": "uc1_event_009",
+    "name": "Event registration",
+    "requirement": "Create an event-registration screen. Show event summary, collect attendee contact details, ticket type and quantity, accessibility needs, terms acceptance, register or cancel actions, and confirmation. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "event",
+        "summary"
+      ],
+      [
+        "attendee",
+        "contact"
+      ],
+      [
+        "ticket"
+      ],
+      [
+        "accessibility"
+      ],
+      [
+        "terms"
+      ],
+      [
+        "register",
+        "action"
+      ],
+      [
+        "confirmation",
+        "result"
+      ]
+    ],
+    "expected_components": [
+      "Card",
+      "Form",
+      "TextInput",
+      "Select",
+      "NumberInput",
+      "TextArea",
+      "Checkbox",
+      "Button",
+      "Alert"
+    ],
+    "forbidden_features": [
+      "analytics",
+      "chatbot",
+      "admin",
+      "event management dashboard"
+    ]
+  },
+  {
+    "id": "uc1_loan_010",
+    "name": "Loan application",
+    "requirement": "Create a loan-application screen. Collect loan type and amount, applicant personal and employment details, income, repayment term, declarations, application review, submit or cancel actions, and result. Generate only this screen.",
+    "expected_section_groups": [
+      [
+        "loan",
+        "details"
+      ],
+      [
+        "personal",
+        "applicant"
+      ],
+      [
+        "employment",
+        "income"
+      ],
+      [
+        "repayment",
+        "term"
+      ],
+      [
+        "declaration"
+      ],
+      [
+        "review"
+      ],
+      [
+        "submit",
+        "action"
+      ],
+      [
+        "result"
+      ]
+    ],
+    "expected_components": [
+      "Form",
+      "Select",
+      "NumberInput",
+      "TextInput",
+      "Checkbox",
+      "Card",
+      "Button",
+      "Alert"
+    ],
+    "forbidden_features": [
+      "investment",
+      "analytics",
+      "chatbot",
+      "admin",
+      "credit decision"
+    ]
+  }
+]

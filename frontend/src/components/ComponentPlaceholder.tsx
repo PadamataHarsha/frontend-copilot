@@ -1,0 +1,2 @@
+interface ComponentPlaceholderProps { label: string; }
+export function ComponentPlaceholder({ label }: ComponentPlaceholderProps) { return <div className="component-placeholder"><span className="placeholder-mark" aria-hidden="true" /><span>{label}</span></div>; }

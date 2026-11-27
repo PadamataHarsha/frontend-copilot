@@ -1,0 +1,25 @@
+# Secrets
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Python
+**/.venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+**/node_modules/
+**/dist/
+
+# OS/editor
+.DS_Store
+.vscode/find backend -type d -name "__pycache__" -exec rm -rf {} +
+find backend -type d -name ".pytest_cache" -exec rm -rf {} +
+
+backend/evaluation/results/*
+!backend/evaluation/results/.gitkeep

@@ -1,0 +1,2 @@
+interface ErrorStateProps { message: string; }
+export function ErrorState({ message }: ErrorStateProps) { return <div className="error-state" role="alert"><span className="error-mark" aria-hidden="true">!</span><h3>We couldn't generate this wireframe</h3><p>{message}</p></div>; }

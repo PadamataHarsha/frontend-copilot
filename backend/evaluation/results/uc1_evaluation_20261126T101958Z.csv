@@ -1,0 +1,11 @@
+case_id,case_name,run,http_status,latency_seconds,success,schema_valid,section_coverage,component_coverage,hallucination_free,error
+uc1_leave_001,Employee leave management,1,200,0.8409,True,True,1.0,1.0,True,
+uc1_transfer_002,Domestic fund transfer,1,200,0.5921,True,True,0.6667,0.8571,True,
+uc1_patient_003,Patient appointment booking,1,200,0.7746,True,True,1.0,1.0,True,
+uc1_registration_004,Customer registration,1,200,0.7444,True,True,1.0,1.0,True,
+uc1_checkout_005,E-commerce checkout,1,200,1.3972,True,True,1.0,0.875,True,
+uc1_flight_006,Flight booking,1,200,12.6105,True,True,0.8,0.8889,True,
+uc1_claim_007,Insurance claim submission,1,200,8.7339,True,True,1.0,1.0,True,
+uc1_ticket_008,Customer support ticket,1,200,11.5178,True,True,0.6,0.8571,True,
+uc1_event_009,Event registration,1,200,7.7121,True,True,1.0,1.0,True,
+uc1_loan_010,Loan application,1,200,11.052,True,True,1.0,1.0,True,

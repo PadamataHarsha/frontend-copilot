@@ -1,0 +1,11 @@
+case_id,case_name,run,http_status,latency_seconds,success,schema_valid,section_coverage,component_coverage,hallucination_free,error
+uc1_leave_001,Employee leave management,1,0,0.0729,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_transfer_002,Domestic fund transfer,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_patient_003,Patient appointment booking,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_registration_004,Customer registration,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_checkout_005,E-commerce checkout,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_flight_006,Flight booking,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_claim_007,Insurance claim submission,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_ticket_008,Customer support ticket,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_event_009,Event registration,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>
+uc1_loan_010,Loan application,1,0,0.0003,False,False,0.0,0.0,True,<urlopen error [Errno 111] Connection refused>

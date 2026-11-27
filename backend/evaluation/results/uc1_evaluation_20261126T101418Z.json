@@ -1,0 +1,572 @@
+{
+  "summary": {
+    "timestamp_utc": "20261126T101418Z",
+    "endpoint": "http://127.0.0.1:8000/wireframe/generate",
+    "cases": 10,
+    "runs_per_case": 1,
+    "total_requests": 10,
+    "http_success_count": 0,
+    "http_success_rate": 0.0,
+    "schema_valid_count": 0,
+    "schema_validity_rate": 0.0,
+    "average_section_coverage_on_valid": 0.0,
+    "average_component_coverage_on_valid": 0.0,
+    "hallucination_free_count": 0,
+    "hallucination_free_rate_on_valid": 0.0,
+    "latency_seconds": {
+      "minimum": 0.0003,
+      "median": 0.0003,
+      "average": 0.007560000000000001,
+      "p95": 0.0729,
+      "maximum": 0.0729
+    },
+    "status_counts": {
+      "0": 10
+    }
+  },
+  "results": [
+    {
+      "case_id": "uc1_leave_001",
+      "case_name": "Employee leave management",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0729,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 5,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "balance"
+        ],
+        [
+          "request",
+          "application"
+        ],
+        [
+          "history",
+          "previous"
+        ],
+        [
+          "manager",
+          "approval",
+          "review"
+        ],
+        [
+          "status",
+          "validation"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 8,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "SummaryCard",
+        "Form",
+        "Select",
+        "DatePicker",
+        "TextArea",
+        "Button",
+        "Table",
+        "StatusBadge"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_transfer_002",
+      "case_name": "Domestic fund transfer",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 6,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "source",
+          "account"
+        ],
+        [
+          "beneficiary"
+        ],
+        [
+          "amount",
+          "transfer details"
+        ],
+        [
+          "review"
+        ],
+        [
+          "confirm",
+          "action"
+        ],
+        [
+          "result",
+          "status"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 7,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Select",
+        "SummaryCard",
+        "NumberInput",
+        "TextInput",
+        "Card",
+        "Button",
+        "Alert"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_patient_003",
+      "case_name": "Patient appointment booking",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 6,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "appointment",
+          "details"
+        ],
+        [
+          "specialty",
+          "doctor"
+        ],
+        [
+          "date",
+          "time"
+        ],
+        [
+          "review"
+        ],
+        [
+          "confirm",
+          "action"
+        ],
+        [
+          "result"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 7,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Form",
+        "Select",
+        "DatePicker",
+        "TextArea",
+        "Card",
+        "Button",
+        "Alert"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_registration_004",
+      "case_name": "Customer registration",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 6,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "personal",
+          "customer details"
+        ],
+        [
+          "contact",
+          "address"
+        ],
+        [
+          "password",
+          "security"
+        ],
+        [
+          "terms"
+        ],
+        [
+          "register",
+          "action"
+        ],
+        [
+          "result"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 7,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Form",
+        "TextInput",
+        "DatePicker",
+        "TextArea",
+        "Checkbox",
+        "Button",
+        "Alert"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_checkout_005",
+      "case_name": "E-commerce checkout",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 6,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "cart"
+        ],
+        [
+          "delivery",
+          "address"
+        ],
+        [
+          "payment"
+        ],
+        [
+          "summary",
+          "total"
+        ],
+        [
+          "place",
+          "action"
+        ],
+        [
+          "confirmation",
+          "result"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 8,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Table",
+        "NumberInput",
+        "Form",
+        "TextInput",
+        "RadioGroup",
+        "Card",
+        "Button",
+        "Alert"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_flight_006",
+      "case_name": "Flight booking",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 5,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "search",
+          "trip details"
+        ],
+        [
+          "passenger"
+        ],
+        [
+          "flight",
+          "results"
+        ],
+        [
+          "selection",
+          "review"
+        ],
+        [
+          "confirmation",
+          "action"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 9,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Form",
+        "SearchInput",
+        "DatePicker",
+        "NumberInput",
+        "Select",
+        "List",
+        "Card",
+        "Button",
+        "Alert"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_claim_007",
+      "case_name": "Insurance claim submission",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 7,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "policy"
+        ],
+        [
+          "incident"
+        ],
+        [
+          "claim",
+          "details"
+        ],
+        [
+          "document",
+          "supporting"
+        ],
+        [
+          "declaration"
+        ],
+        [
+          "submit",
+          "action"
+        ],
+        [
+          "result"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 9,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Form",
+        "TextInput",
+        "Select",
+        "DatePicker",
+        "TextArea",
+        "NumberInput",
+        "Checkbox",
+        "Button",
+        "Alert"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_ticket_008",
+      "case_name": "Customer support ticket",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 5,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "ticket",
+          "details"
+        ],
+        [
+          "category",
+          "priority"
+        ],
+        [
+          "description"
+        ],
+        [
+          "submit",
+          "action"
+        ],
+        [
+          "result",
+          "status"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 7,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Form",
+        "Select",
+        "TextInput",
+        "TextArea",
+        "Button",
+        "Alert",
+        "StatusBadge"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_event_009",
+      "case_name": "Event registration",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 7,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "event",
+          "summary"
+        ],
+        [
+          "attendee",
+          "contact"
+        ],
+        [
+          "ticket"
+        ],
+        [
+          "accessibility"
+        ],
+        [
+          "terms"
+        ],
+        [
+          "register",
+          "action"
+        ],
+        [
+          "confirmation",
+          "result"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 9,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Card",
+        "Form",
+        "TextInput",
+        "Select",
+        "NumberInput",
+        "TextArea",
+        "Checkbox",
+        "Button",
+        "Alert"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    },
+    {
+      "case_id": "uc1_loan_010",
+      "case_name": "Loan application",
+      "run": 1,
+      "http_status": 0,
+      "latency_seconds": 0.0003,
+      "success": false,
+      "schema_valid": false,
+      "schema_errors": [],
+      "section_matches": 0,
+      "section_total": 8,
+      "section_coverage": 0.0,
+      "missing_section_groups": [
+        [
+          "loan",
+          "details"
+        ],
+        [
+          "personal",
+          "applicant"
+        ],
+        [
+          "employment",
+          "income"
+        ],
+        [
+          "repayment",
+          "term"
+        ],
+        [
+          "declaration"
+        ],
+        [
+          "review"
+        ],
+        [
+          "submit",
+          "action"
+        ],
+        [
+          "result"
+        ]
+      ],
+      "component_matches": 0,
+      "component_total": 8,
+      "component_coverage": 0.0,
+      "missing_components": [
+        "Form",
+        "Select",
+        "NumberInput",
+        "TextInput",
+        "Checkbox",
+        "Card",
+        "Button",
+        "Alert"
+      ],
+      "forbidden_hits": [],
+      "hallucination_free": true,
+      "error": "<urlopen error [Errno 111] Connection refused>",
+      "response": null
+    }
+  ]
+}

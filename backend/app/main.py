@@ -1,9 +1,17 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.routers.wireframe_router import router as wireframe_router
 
-app = FastAPI(
-    title="Frontend Copilot"
+
+app = FastAPI(title="Frontend Copilot")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 app.include_router(wireframe_router)
@@ -13,5 +21,5 @@ app.include_router(wireframe_router)
 def health():
     return {
         "status": "healthy",
-        "service": "frontend-copilot"
+        "service": "frontend-copilot",
     }
